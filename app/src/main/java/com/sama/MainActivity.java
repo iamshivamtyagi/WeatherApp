@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_forecast);
 
         tvWeatherData = findViewById(R.id.tv_weather_data);
-
+        
         String[] weatherData = {
                 "Mon -> 19° Cloudy",
                 "Tues -> 29° Clear",
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 "Wed -> 49° Clear",
         };
         for (String data : weatherData) {
-            tvWeatherData.append(data + "\n\n\n");
+            tvWeatherData.append(data + " \n\n\n ");
         }
     }
 }
