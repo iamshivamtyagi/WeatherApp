@@ -2,19 +2,13 @@
 
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
 
-    <!-- - - - - - - - - - - - - -->
-    <!-- Used throughout Sunshine-->
-    <!-- - - - - - - - - - - - - -->
 
-    <!--Used in Action Bar, and in AndroidManifest to tell the device the name of this app.-->
-    <!--It's good to keep this short, so your launcher icon isn't displayed with "The greatest Wea"-->
-    <!--or something similar.-->
     <string name="app_name">Sama</string>
 
+    <!--action button for refresh-->
 
-    <!-- - - - - - - - - - - - - -->
-    <!--Used by SunshineDateUtils-->
-    <!-- - - - - - - - - - - - - -->
+    <string name="refresh_action">Refresh</string>
+
 
     <!-- For labelling today's forecast [CHAR LIMIT=15] -->
     <string name="today">Today</string>
@@ -27,10 +21,6 @@
         <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
     </string>
 
-
-    <!-- - - - - - - - - - - - - - - -->
-    <!-- Used by SunshineWeatherUtils-->
-    <!-- - - - - - - - - - - - - - - -->
 
     <!-- Temperature format in Celsius [CHAR LIMIT=5] -->
     <string name="format_temperature_celsius">
@@ -112,19 +102,4 @@
 
     <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
 
-
-    <!-- - - - - - - - - - - -->
-    <!-- Used by NetworkUtils-->
-    <!-- - - - - - - - - - - -->
-    <!--NONE-->
-
-    <!-- - - - - - - - - - - - - - - -->
-    <!-- Used by OpenWeatherJsonUtils-->
-    <!-- - - - - - - - - - - - - - - -->
-    <!--NONE-->
-
-    <!-- - - - - - - - - - - - - - -->
-    <!--Used by SunshinePreferences-->
-    <!-- - - - - - - - - - - - - - -->
-    <!--NONE-->
 </resources>
